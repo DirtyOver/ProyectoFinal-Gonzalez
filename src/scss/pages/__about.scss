@@ -1,0 +1,17 @@
+// #FDFDFD
+// #5C3551
+.about{
+    left: 0;
+    top: 0;
+    margin-top: 50px;
+    height: 100%;
+    width:  100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4em; 
+    &__title{
+        font-family: $secondary;
+    }
+}
